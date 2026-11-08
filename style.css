@@ -1,0 +1,92 @@
+/* --- Global Styles &CSS Box Model --- */
+{
+box-sizing:border-box
+margin:0;
+padding:0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color:darkviolet;
+    background-color: cadetblue;
+}
+{
+ max-width:100%;
+ height:auto
+ display:block;
+}
+
+container{
+max: width 1200px;
+margin: 0 auto;
+padding: 60px 20px;
+}
+
+h2 {
+    font-size: 2.2rem;
+    color: darkorchid;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.section-subtitle {
+    text-align: center;
+    color: bisque;
+    margin-bottom: 40px;
+}
+/* Buttons */
+.btn {
+    display: inline-block;
+    background-color: black;
+    color: hotpink;
+    padding: 12px 24px;
+    text-decoration: rebeccapurple;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor:pointer;
+    transition: background 0.3s ease;
+}
+.btn:hover {
+    background-color: cornflowerblue;
+}
+
+/*--- Header & flexbox navigation---*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: coral;
+    padding: 20px 40px;
+    position:sticky;
+    top:0;
+    z-index: 1000;
+}
+
+.navbar .logo h1 {
+    color: blueviolet;
+    font-size: 1.6rem;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap:20px;
+}
+
+.nav-links a {
+    color:cadetblue
+    text-decoration:none;
+    font-weight:500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color:darkblue
+}
+
+Section A: Hero section
+.hero-section{
+    background: linear-gradient(rgba 0,0,0,0.6)
+}
